@@ -1,0 +1,18 @@
+﻿historie
+laten zien wat de app kan
+project indeling laten zien
+
+XAml
+	styles
+	resources
+	blend
+rekenkern/objectmodel laten Zien
+	multithreading/performance
+	crossthread issues
+linq
+isolatedstorage
+storyboard
+dependency properties
+
+layout maker
+	double buffering

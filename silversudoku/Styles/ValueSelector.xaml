@@ -1,0 +1,50 @@
+﻿<Style  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Key="ValueSelector" TargetType="TextBox">
+  <Setter Property="Template">
+    <Setter.Value>
+      <ControlTemplate x:Name="SudokuBox">
+        <Grid x:Name="RootElement">
+          <Grid.Resources>
+
+            <SolidColorBrush x:Key="BorderBrush" Color="#FF000000"/>
+            <SolidColorBrush x:Key="AccentBrush" Color="#FFFFFFFF"/>
+            <LinearGradientBrush x:Key="FocusedStrokeBrush"
+ StartPoint="0.5,0" EndPoint="0.5,1">
+              <GradientStop Color="Red" Offset="0"/>
+              <GradientStop Color="Blue" Offset="1"/>
+              <GradientStop Color="Green" Offset="0.325"/>
+              <GradientStop Color="#1EFFFFFF" Offset="0.325"/>
+            </LinearGradientBrush>
+            <Storyboard x:Key="Normal State">
+              <DoubleAnimation Storyboard.TargetName="FocusVisualElement"
+   Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:1.0"/>
+            </Storyboard>
+            <Storyboard x:Key="Focused State">
+              <DoubleAnimation Storyboard.TargetName="FocusVisualElement"
+   Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:1.0"/>
+            </Storyboard>
+          </Grid.Resources>
+          <Grid.RowDefinitions>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition ></RowDefinition>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+          </Grid.ColumnDefinitions>
+          <Ellipse x:Name="FocusVisual" StrokeThickness=".5"  Fill="{StaticResource Brush1}" Grid.Column="1" Grid.Row="1" Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" >
+
+          </Ellipse>
+          <Ellipse StrokeThickness="2" Grid.Column="1" Grid.Row="1" Stroke="{StaticResource Brush1}">
+            
+          </Ellipse>
+          <Border x:Name="ContentElement" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                    />
+        </Grid>
+      </ControlTemplate>
+    </Setter.Value>
+  </Setter>
+</Style>

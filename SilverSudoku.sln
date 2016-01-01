@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SilverSudokuWeb", "SilverSudokuWeb\", "{0517EBDC-ACE1-49BA-B35A-B96920811EC2}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProvider = ""
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/SilverSudokuWeb"
+		Debug.AspNetCompiler.PhysicalPath = "SilverSudokuWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SilverSudokuWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SilverSudokuWeb"
+		Release.AspNetCompiler.PhysicalPath = "SilverSudokuWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SilverSudokuWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1672"
+		SlnRelativePath = "SilverSudokuWeb\"
+		DefaultWebSiteLanguage = "Visual C#"
+		ProjOutputReferences = "{24575464-9E99-4573-BA3B-4D6D101D7C30}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuSolver", "SudokuSolver\SudokuSolver.csproj", "{73512129-B2C2-4E06-B510-8B02D5375141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverSudoku", "SilverSudoku\SilverSudoku.csproj", "{24575464-9E99-4573-BA3B-4D6D101D7C30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0517EBDC-ACE1-49BA-B35A-B96920811EC2}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{0517EBDC-ACE1-49BA-B35A-B96920811EC2}.Debug|.NET.Build.0 = Debug|Any CPU
+		{0517EBDC-ACE1-49BA-B35A-B96920811EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0517EBDC-ACE1-49BA-B35A-B96920811EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0517EBDC-ACE1-49BA-B35A-B96920811EC2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0517EBDC-ACE1-49BA-B35A-B96920811EC2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0517EBDC-ACE1-49BA-B35A-B96920811EC2}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{0517EBDC-ACE1-49BA-B35A-B96920811EC2}.Release|.NET.Build.0 = Debug|Any CPU
+		{0517EBDC-ACE1-49BA-B35A-B96920811EC2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0517EBDC-ACE1-49BA-B35A-B96920811EC2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0517EBDC-ACE1-49BA-B35A-B96920811EC2}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0517EBDC-ACE1-49BA-B35A-B96920811EC2}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{73512129-B2C2-4E06-B510-8B02D5375141}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{73512129-B2C2-4E06-B510-8B02D5375141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73512129-B2C2-4E06-B510-8B02D5375141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73512129-B2C2-4E06-B510-8B02D5375141}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{73512129-B2C2-4E06-B510-8B02D5375141}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{73512129-B2C2-4E06-B510-8B02D5375141}.Release|.NET.ActiveCfg = Release|Any CPU
+		{73512129-B2C2-4E06-B510-8B02D5375141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73512129-B2C2-4E06-B510-8B02D5375141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73512129-B2C2-4E06-B510-8B02D5375141}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{73512129-B2C2-4E06-B510-8B02D5375141}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{24575464-9E99-4573-BA3B-4D6D101D7C30}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{24575464-9E99-4573-BA3B-4D6D101D7C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24575464-9E99-4573-BA3B-4D6D101D7C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24575464-9E99-4573-BA3B-4D6D101D7C30}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{24575464-9E99-4573-BA3B-4D6D101D7C30}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{24575464-9E99-4573-BA3B-4D6D101D7C30}.Release|.NET.ActiveCfg = Release|Any CPU
+		{24575464-9E99-4573-BA3B-4D6D101D7C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24575464-9E99-4573-BA3B-4D6D101D7C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24575464-9E99-4573-BA3B-4D6D101D7C30}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{24575464-9E99-4573-BA3B-4D6D101D7C30}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

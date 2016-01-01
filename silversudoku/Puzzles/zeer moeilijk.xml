@@ -1,0 +1,101 @@
+<puzzleValues>
+  <Row Number="0">
+    <Cell Row="0" Column="0" Given="true" Value="7" />
+    <Cell Row="0" Column="1" Given="False" Value="-1" />
+    <Cell Row="0" Column="2" Given="False" Value="-1" />
+    <Cell Row="0" Column="3" Given="False" Value="-1" />
+    <Cell Row="0" Column="4" Given="False" Value="-1" />
+    <Cell Row="0" Column="5" Given="true" Value="6" />
+    <Cell Row="0" Column="6" Given="true" Value="2" />
+    <Cell Row="0" Column="7" Given="False" Value="-1" />
+    <Cell Row="0" Column="8" Given="true" Value="0" />
+  </Row>
+  <Row Number="1">
+    <Cell Row="1" Column="0" Given="False" Value="-1" />
+    <Cell Row="1" Column="1" Given="False" Value="-1" />
+    <Cell Row="1" Column="2" Given="False" Value="-1" />
+    <Cell Row="1" Column="3" Given="False" Value="-1" />
+    <Cell Row="1" Column="4" Given="False" Value="-1" />
+    <Cell Row="1" Column="5" Given="False" Value="-1" />
+    <Cell Row="1" Column="6" Given="False" Value="-1" />
+    <Cell Row="1" Column="7" Given="False" Value="-1" />
+    <Cell Row="1" Column="8" Given="true" Value="1" />
+  </Row>
+  <Row Number="2">
+    <Cell Row="2" Column="0" Given="true" Value="8" />
+    <Cell Row="2" Column="1" Given="False" Value="-1" />
+    <Cell Row="2" Column="2" Given="False" Value="-1" />
+    <Cell Row="2" Column="3" Given="False" Value="-1" />
+    <Cell Row="2" Column="4" Given="False" Value="-1" />
+    <Cell Row="2" Column="5" Given="False" Value="-1" />
+    <Cell Row="2" Column="6" Given="true" Value="3" />
+    <Cell Row="2" Column="7" Given="true" Value="4" />
+    <Cell Row="2" Column="8" Given="False" Value="-1" />
+  </Row>
+  <Row Number="3">
+    <Cell Row="3" Column="0" Given="False" Value="-1" />
+    <Cell Row="3" Column="1" Given="true" Value="5" />
+    <Cell Row="3" Column="2" Given="true" Value="4" />
+    <Cell Row="3" Column="3" Given="False" Value="-1" />
+    <Cell Row="3" Column="4" Given="true" Value="1" />
+    <Cell Row="3" Column="5" Given="False" Value="-1" />
+    <Cell Row="3" Column="6" Given="False" Value="-1" />
+    <Cell Row="3" Column="7" Given="true" Value="3" />
+    <Cell Row="3" Column="8" Given="False" Value="-1" />
+  </Row>
+  <Row Number="4">
+    <Cell Row="4" Column="0" Given="False" Value="-1" />
+    <Cell Row="4" Column="1" Given="False" Value="-1" />
+    <Cell Row="4" Column="2" Given="False" Value="-1" />
+    <Cell Row="4" Column="3" Given="False" Value="-1" />
+    <Cell Row="4" Column="4" Given="true" Value="3" />
+    <Cell Row="4" Column="5" Given="False" Value="-1" />
+    <Cell Row="4" Column="6" Given="False" Value="-1" />
+    <Cell Row="4" Column="7" Given="False" Value="-1" />
+    <Cell Row="4" Column="8" Given="False" Value="-1" />
+  </Row>
+  <Row Number="5">
+    <Cell Row="5" Column="0" Given="False" Value="-1" />
+    <Cell Row="5" Column="1" Given="true" Value="3" />
+    <Cell Row="5" Column="2" Given="False" Value="-1" />
+    <Cell Row="5" Column="3" Given="true" Value="4" />
+    <Cell Row="5" Column="4" Given="False" Value="-1" />
+    <Cell Row="5" Column="5" Given="False" Value="-1" />
+    <Cell Row="5" Column="6" Given="False" Value="-1" />
+    <Cell Row="5" Column="7" Given="False" Value="-1" />
+    <Cell Row="5" Column="8" Given="False" Value="-1" />
+  </Row>
+  <Row Number="6">
+    <Cell Row="6" Column="0" Given="False" Value="-1" />
+    <Cell Row="6" Column="1" Given="true" Value="4" />
+    <Cell Row="6" Column="2" Given="False" Value="-1" />
+    <Cell Row="6" Column="3" Given="true" Value="6" />
+    <Cell Row="6" Column="4" Given="False" Value="-1" />
+    <Cell Row="6" Column="5" Given="False" Value="-1" />
+    <Cell Row="6" Column="6" Given="False" Value="-1" />
+    <Cell Row="6" Column="7" Given="False" Value="-1" />
+    <Cell Row="6" Column="8" Given="true" Value="8" />
+  </Row>
+  <Row Number="7">
+    <Cell Row="7" Column="0" Given="False" Value="-1" />
+    <Cell Row="7" Column="1" Given="False" Value="-1" />
+    <Cell Row="7" Column="2" Given="true" Value="2" />
+    <Cell Row="7" Column="3" Given="False" Value="-1" />
+    <Cell Row="7" Column="4" Given="true" Value="7" />
+    <Cell Row="7" Column="5" Given="False" Value="-1" />
+    <Cell Row="7" Column="6" Given="False" Value="-1" />
+    <Cell Row="7" Column="7" Given="true" Value="1" />
+    <Cell Row="7" Column="8" Given="False" Value="-1" />
+  </Row>
+  <Row Number="8">
+    <Cell Row="8" Column="0" Given="true" Value="0" />
+    <Cell Row="8" Column="1" Given="False" Value="-1" />
+    <Cell Row="8" Column="2" Given="False" Value="-1" />
+    <Cell Row="8" Column="3" Given="true" Value="8" />
+    <Cell Row="8" Column="4" Given="False" Value="-1" />
+    <Cell Row="8" Column="5" Given="true" Value="2" />
+    <Cell Row="8" Column="6" Given="False" Value="-1" />
+    <Cell Row="8" Column="7" Given="False" Value="-1" />
+    <Cell Row="8" Column="8" Given="False" Value="-1" />
+  </Row>
+</puzzleValues>

@@ -1,0 +1,60 @@
+﻿<UserControl xmlns:telerikNavigation="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Navigation"  
+             x:Class="SilverSudoku.MainMenu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+       
+ >
+
+    <Canvas x:Name="Base" >
+        <Grid x:Name="LayoutRoot" Background="White" ShowGridLines="False" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="300"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+            </Grid.RowDefinitions>
+  
+            <telerikNavigation:RadMenu Grid.Row="0" x:Name="Menu" >
+                <telerikNavigation:RadMenuItem Header="Bestand" x:Name="Bestand">
+                    <telerikNavigation:RadMenuItem x:Name="Laden" Header="Laden(file system)" Click="Laden_Click">
+                        <telerikNavigation:RadMenuItem.Icon>
+                            <Image Source="images/menu/12open.png"/>
+                        </telerikNavigation:RadMenuItem.Icon>
+                    </telerikNavigation:RadMenuItem>
+                    <telerikNavigation:RadMenuItem x:Name="IsoLaden" Header="Laden" Click="IsoLaden_Click">
+                        <telerikNavigation:RadMenuItem.Icon>
+                            <Image Source="images/menu/12open.png"/>
+                        </telerikNavigation:RadMenuItem.Icon>
+                    </telerikNavigation:RadMenuItem>
+                    <telerikNavigation:RadMenuItem Header="Opslaan" Click="Opslaan_Click">
+                        <telerikNavigation:RadMenuItem.Icon>
+                            <Image Source="images/menu/13save.png"/>
+                        </telerikNavigation:RadMenuItem.Icon>
+                    </telerikNavigation:RadMenuItem>
+                    <telerikNavigation:RadSeparator></telerikNavigation:RadSeparator>                                        
+                </telerikNavigation:RadMenuItem>
+                <telerikNavigation:RadMenuItem x:Name="SudokuMenu" Header="Sudoku" IsEnabled="False">
+                    <telerikNavigation:RadMenuItem x:Name="Oplossen" Header="Oplossen" Click="Oplossen_Click"></telerikNavigation:RadMenuItem>
+                    <telerikNavigation:RadMenuItem Header="Valideren" Click="Valideren_Click"></telerikNavigation:RadMenuItem>
+                    <telerikNavigation:RadMenuItem x:Name="BeginStand" Header="Beginstand" Click="Beginstand_Click"></telerikNavigation:RadMenuItem>
+                    <telerikNavigation:RadMenuItem x:Name="Stoppen" Header="Stoppen" Click="Stoppen_Click" IsEnabled="False"></telerikNavigation:RadMenuItem>
+                </telerikNavigation:RadMenuItem>
+                <telerikNavigation:RadMenuItem x:Name="Visueel" Header="Visueel" IsEnabled="False">
+                    <telerikNavigation:RadMenuItem x:Name="Animaties" Header="Animaties" IsCheckable="True" IsChecked="True" Click="Animaties_Click"></telerikNavigation:RadMenuItem>
+                    <telerikNavigation:RadMenuItem x:Name="ToonFamilie" Header="Toon familie" IsCheckable="True" Click="ToonFamilie_Click"></telerikNavigation:RadMenuItem>
+                  <telerikNavigation:RadMenuItem x:Name="Invulhulp" Header="Invulhulp" IsCheckable="True" Click="Invulhulp_Click"/>
+                  <telerikNavigation:RadMenuItem x:Name="Stijl" Header="Style"/>
+                  
+                </telerikNavigation:RadMenuItem>
+            </telerikNavigation:RadMenu>
+            <Popup x:Name="tip">
+            </Popup>
+            <Grid x:Name="StatusBar" Height="30" Background="#525252" Grid.Row="2"  >
+              <TextBlock x:Name="Status" Height="28" Foreground="White" Grid.Row="1" Margin="0,5,0,0"></TextBlock>
+            </Grid>
+
+        </Grid>
+    </Canvas>
+</UserControl>
