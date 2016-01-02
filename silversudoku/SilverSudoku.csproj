@@ -318,6 +318,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Puzzles\Boekje001_nieuw.xml" />
+    <EmbeddedResource Include="Puzzles\hard.xml" />
     <Content Include="Styles\GlasBoxBackup.txt" />
   </ItemGroup>
   <ItemGroup>
